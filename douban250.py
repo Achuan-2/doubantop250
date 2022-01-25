@@ -121,7 +121,7 @@ def main():
         html = res.text
         table = parse_page(html, table)
     df = pd.DataFrame(table)
-    df.to_excel('豆瓣Top250_raw.xlsx', index=False)
+    df.to_excel('movies/豆瓣Top250_raw.xlsx', index=False)
 
 
 if __name__ == "__main__":

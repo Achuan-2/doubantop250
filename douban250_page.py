@@ -121,7 +121,7 @@ def main():
     columns = ['排名', '电影名称', '别名', '导演', '上映年份', '制作国家', '类型', '评分', '评分人数', '短评', '豆瓣链接']
 
     df = pd.DataFrame(table, columns=columns)
-    df.to_excel('豆瓣Top250_page.xlsx', index=False)
+    df.to_excel('movies/豆瓣Top250_page.xlsx', index=False)
 
 
 if __name__ == "__main__":

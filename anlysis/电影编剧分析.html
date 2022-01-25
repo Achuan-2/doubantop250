@@ -7,11 +7,11 @@
 
 </head>
 <body>
-    <div id="7e6e0181fd1548518537a53ac42dd8d2" class="chart-container" style="width:900px; height:500px;"></div>
+    <div id="d05ea70a244444b8ae9cc0febfc2b15d" class="chart-container" style="width:1200px; height:600px;"></div>
     <script>
-        var chart_7e6e0181fd1548518537a53ac42dd8d2 = echarts.init(
-            document.getElementById('7e6e0181fd1548518537a53ac42dd8d2'), 'white', {renderer: 'canvas'});
-        var option_7e6e0181fd1548518537a53ac42dd8d2 = {
+        var chart_d05ea70a244444b8ae9cc0febfc2b15d = echarts.init(
+            document.getElementById('d05ea70a244444b8ae9cc0febfc2b15d'), 'white', {renderer: 'canvas'});
+        var option_d05ea70a244444b8ae9cc0febfc2b15d = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -48,47 +48,56 @@
     ],
     "series": [
         {
-            "type": "boxplot",
+            "type": "bar",
+            "name": "\u5f71\u7247\u6570\u91cf",
+            "legendHoverLink": true,
             "data": [
-                [
-                    45,
-                    102.0,
-                    118.0,
-                    137.0,
-                    238
-                ]
+                10,
+                6,
+                5,
+                5,
+                5,
+                5,
+                4,
+                4,
+                4,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3,
+                3
             ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "20%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
             "label": {
                 "show": true,
                 "position": "top",
                 "margin": 8
-            },
-            "markPoint": {
-                "label": {
-                    "show": true,
-                    "position": "inside",
-                    "color": "#fff",
-                    "margin": 8
-                }
-            },
-            "markLine": {
-                "silent": false,
-                "precision": 2,
-                "label": {
-                    "show": true,
-                    "position": "top",
-                    "margin": 8
-                }
             }
         }
     ],
     "legend": [
         {
             "data": [
-                ""
+                "\u5f71\u7247\u6570\u91cf"
             ],
             "selected": {
-                "": true
+                "\u5f71\u7247\u6570\u91cf": true
             },
             "show": true,
             "padding": 5,
@@ -121,6 +130,12 @@
             "nameLocation": "end",
             "nameGap": 15,
             "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "rotate": 20,
+                "margin": 8
+            },
             "inverse": false,
             "offset": 0,
             "splitNumber": 5,
@@ -136,7 +151,26 @@
                 }
             },
             "data": [
-                "\u7247\u957f"
+                "\u5bab\u5d0e\u9a8f",
+                "\u514b\u91cc\u65af\u6258\u5f17\u00b7\u8bfa\u5170",
+                "\u4e54\u7eb3\u68ee\u00b7\u8bfa\u5170",
+                "\u53f2\u8482\u592b\u00b7\u514b\u6d1b\u592b\u65af",
+                "J.K.\u7f57\u7433",
+                "\u738b\u5bb6\u536b",
+                "\u5b89\u5fb7\u9c81\u00b7\u5c3c\u79d1\u5c14",
+                "\u5f7c\u7279\u00b7\u9053\u683c\u7279",
+                "\u662f\u679d\u88d5\u548c",
+                "\u8a79\u59c6\u65af\u00b7\u5361\u6885\u9686",
+                "\u6731\u585e\u4f69\u00b7\u6258\u7eb3\u591a\u96f7",
+                "\u5b89\u5fb7\u9c81\u00b7\u65af\u5766\u987f",
+                "\u5409\u59c6\u00b7\u91cc\u5c14\u987f",
+                "\u5218\u9547\u4f1f",
+                "\u9a6c\u91cc\u5965\u00b7\u666e\u4f50",
+                "\u5f17\u6717\u897f\u65af\u00b7\u798f\u7279\u00b7\u79d1\u6ce2\u62c9",
+                "\u5f17\u5170\u00b7\u5a01\u5c14\u58eb",
+                "\u83f2\u5229\u5e15\u00b7\u9c8d\u6069\u65af",
+                "\u5f7c\u5f97\u00b7\u6770\u514b\u900a",
+                "J.R.R.\u6258\u5c14\u91d1"
             ]
         }
     ],
@@ -165,13 +199,13 @@
     ],
     "title": [
         {
-            "text": "\u8c46\u74e3Top250\u7535\u5f71\u7247\u957f\u5206\u6790",
+            "text": "\u8c46\u74e3\u7535\u5f71Top250\u7f16\u5267\u6570\u91cf\u5206\u5e03\u60c5\u51b5(\u524d20\u4f4d\u7f16\u5267)",
             "padding": 5,
             "itemGap": 10
         }
     ]
 };
-        chart_7e6e0181fd1548518537a53ac42dd8d2.setOption(option_7e6e0181fd1548518537a53ac42dd8d2);
+        chart_d05ea70a244444b8ae9cc0febfc2b15d.setOption(option_d05ea70a244444b8ae9cc0febfc2b15d);
     </script>
 </body>
 </html>
