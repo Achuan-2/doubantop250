@@ -7,11 +7,11 @@
 
 </head>
 <body>
-    <div id="1b27f88fd55741a0aa3627b12a17a923" class="chart-container" style="width:1000px; height:500px;"></div>
+    <div id="6ef42d8d3d3e42f7a63f64523ad1855c" class="chart-container" style="width:1000px; height:500px;"></div>
     <script>
-        var chart_1b27f88fd55741a0aa3627b12a17a923 = echarts.init(
-            document.getElementById('1b27f88fd55741a0aa3627b12a17a923'), 'white', {renderer: 'canvas'});
-        var option_1b27f88fd55741a0aa3627b12a17a923 = {
+        var chart_6ef42d8d3d3e42f7a63f64523ad1855c = echarts.init(
+            document.getElementById('6ef42d8d3d3e42f7a63f64523ad1855c'), 'white', {renderer: 'canvas'});
+        var option_6ef42d8d3d3e42f7a63f64523ad1855c = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -247,9 +247,26 @@
             "padding": 5,
             "itemGap": 10
         }
-    ]
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "right",
+        "top": "bottom",
+        "feature": {
+            "saveAsImage": {},
+            "dataZoom": {
+                "yAxisIndex": "none"
+            },
+            "restore": {},
+            "magicType": {},
+            "dataView": {}
+        }
+    }
 };
-        chart_1b27f88fd55741a0aa3627b12a17a923.setOption(option_1b27f88fd55741a0aa3627b12a17a923);
+        chart_6ef42d8d3d3e42f7a63f64523ad1855c.setOption(option_6ef42d8d3d3e42f7a63f64523ad1855c);
     </script>
 </body>
 </html>

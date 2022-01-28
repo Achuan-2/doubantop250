@@ -7,11 +7,11 @@
 
 </head>
 <body>
-    <div id="865a0aff409642b9853c38a2d6ce302f" class="chart-container" style="width:900px; height:500px;"></div>
+    <div id="e52b5ec8030d46d6bb1efeab64b1d75d" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_865a0aff409642b9853c38a2d6ce302f = echarts.init(
-            document.getElementById('865a0aff409642b9853c38a2d6ce302f'), 'white', {renderer: 'canvas'});
-        var option_865a0aff409642b9853c38a2d6ce302f = {
+        var chart_e52b5ec8030d46d6bb1efeab64b1d75d = echarts.init(
+            document.getElementById('e52b5ec8030d46d6bb1efeab64b1d75d'), 'white', {renderer: 'canvas'});
+        var option_e52b5ec8030d46d6bb1efeab64b1d75d = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -239,9 +239,34 @@
             "padding": 5,
             "itemGap": 10
         }
-    ]
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "right",
+        "top": "top",
+        "feature": {
+            "saveAsImage": {
+                "pixel_ratio": 2
+            },
+            "dataZoom": {
+                "yAxisIndex": "none"
+            },
+            "restore": {},
+            "magicType": {
+                "show": true,
+                "type": [
+                    "line",
+                    "bar"
+                ]
+            },
+            "dataView": {}
+        }
+    }
 };
-        chart_865a0aff409642b9853c38a2d6ce302f.setOption(option_865a0aff409642b9853c38a2d6ce302f);
+        chart_e52b5ec8030d46d6bb1efeab64b1d75d.setOption(option_e52b5ec8030d46d6bb1efeab64b1d75d);
     </script>
 </body>
 </html>

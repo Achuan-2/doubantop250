@@ -7,11 +7,11 @@
 
 </head>
 <body>
-    <div id="869dff880a90416bb291320e6dab8bad" class="chart-container" style="width:1200px; height:600px;"></div>
+    <div id="e459ee18d5ff423d8aa0735ec303602b" class="chart-container" style="width:1200px; height:600px;"></div>
     <script>
-        var chart_869dff880a90416bb291320e6dab8bad = echarts.init(
-            document.getElementById('869dff880a90416bb291320e6dab8bad'), 'white', {renderer: 'canvas'});
-        var option_869dff880a90416bb291320e6dab8bad = {
+        var chart_e459ee18d5ff423d8aa0735ec303602b = echarts.init(
+            document.getElementById('e459ee18d5ff423d8aa0735ec303602b'), 'white', {renderer: 'canvas'});
+        var option_e459ee18d5ff423d8aa0735ec303602b = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -203,9 +203,26 @@
             "padding": 5,
             "itemGap": 10
         }
-    ]
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "right",
+        "top": "top",
+        "feature": {
+            "saveAsImage": {},
+            "dataZoom": {
+                "yAxisIndex": "none"
+            },
+            "restore": {},
+            "magicType": {},
+            "dataView": {}
+        }
+    }
 };
-        chart_869dff880a90416bb291320e6dab8bad.setOption(option_869dff880a90416bb291320e6dab8bad);
+        chart_e459ee18d5ff423d8aa0735ec303602b.setOption(option_e459ee18d5ff423d8aa0735ec303602b);
     </script>
 </body>
 </html>
